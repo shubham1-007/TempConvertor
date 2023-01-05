@@ -1,0 +1,71 @@
+html{
+    background: rgb(231, 206, 198);
+}
+body{
+    
+   background-color: darkgray;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+
+.navbar{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+.navbrand{
+    padding-left: 30px;
+}
+    .container{
+       
+        padding: 50px;
+        /* background-image: url("https://www.transparenttextures.com/patterns/blu-stripes.png"); */
+        width: 100vw;
+        height:90vh;
+     
+        /* border: 3px solid red; */
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+
+        
+        
+    }
+
+    .box1{
+        height: 120px;
+        width: 320px;
+        border: 2px solid black;
+        margin: 13px;
+        text-align: center;
+        background: #9f9f9f91;
+        border-radius:3px ;
+  
+    }
+
+  
+    
+    .case1{
+        text-align: center;
+    }
+   
+    input{
+        height: 1.3rem;
+        border-radius: .2rem;
+        border: 1px solid black;
+    }
+
+    input:focus{
+        border: 2px solid rgb(0, 0, 0);
+    }
+
+
+@media (max-width: 500px)
+{
+  .heading{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}
